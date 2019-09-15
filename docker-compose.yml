@@ -13,7 +13,7 @@ services:
       — kong
       — migrations
       — up
-      restart: on-failure
+    restart: on-failure
   kong:
     image: kong:latest
     environment:
